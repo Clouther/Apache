@@ -4,8 +4,14 @@ We will be using Apache Nifi to connect with Twitter to stream and store incomin
 
 Tools:
 
-Amazon AWS EC2 instance - based on Cloudera Quickstart VM 5.13. Please follow the setup provided in the GitHub: https://github.com/aws-quickstart/quickstart-cloudera 
+Amazon AWS EC2 instance - based on Cloudera Quickstart VM 5.13.  https://github.com/aws-quickstart/quickstart-cloudera 
 MobaXterm - I find MobaXterm an excellent All-In-One network application tool - https://mobaxterm.mobatek.net/
+
+
+ 
+
+In this reference architecture, we support two options for deploying Cloudera's Enterprise Data Hub within a virtual private cloud (VPC). One option is to launch all the nodes within a public subnet providing direct internet access. The second option is to deploy all the nodes within a private subnet. The reference deployment builds both a public and private subnet, and the cluster can be deployed in either subnet using the configuration file.
+
 
 
 ### First bootstrap and download the wrapper ###
