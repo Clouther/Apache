@@ -6,12 +6,12 @@ Tools:
 Amazon AWS EC2 instance - based on Cloudera Quickstart VM 5.13.  https://github.com/aws-quickstart/quickstart-cloudera 
 MobaXterm - I find MobaXterm an excellent All-In-One network application tool - https://mobaxterm.mobatek.net/
 
-
 ### First start your Amazon EC2 instance and connect through MobaXterm ###
-    cd kafka_source_dir
-    gradle
 
-Now everything else will work.
 
-### Build a jar and run it ###
-    ./gradlew jar
+### Start up and Connect to Nifi ###
+    $ sudo service nifi start
+    [Amazon Public DNS from EC2]:9999/nifi
+
+
+    
