@@ -1,12 +1,11 @@
-Apache Kafka
+Streaming Tweets using Apache Nifi
 =================
-See our [web site](http://kafka.apache.org) for details on the project.
+We will be using Apache Nifi to connect with twitter to stream and store incoming tweets into HDFS 
 
-You need to have [Gradle](http://www.gradle.org/installation) and [Java](http://www.oracle.com/technetwork/java/javase/downloads/index.html) installed.
+Tools:
+Amazon AWS EC2 instance - based on Cloudera Quickstart VM 5.13. Please follow the setup provided in the GitHub: https://github.com/aws-quickstart/quickstart-cloudera 
+MobaXterm - I find MobaXterm an excellent All-In-One network application tool - https://mobaxterm.mobatek.net/
 
-Kafka requires Gradle 4.5 or higher.
-
-Java 8 should be used for building in order to support both Java 8 and Java 10 at runtime.
 
 ### First bootstrap and download the wrapper ###
     cd kafka_source_dir
