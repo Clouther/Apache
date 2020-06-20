@@ -1,4 +1,4 @@
-Streaming Tweets using Apache Nifi
+Streaming Stock Tweets using Apache Nifi
 =================
 We will be using Apache Nifi to connect with Twitter to stream and store incoming tweets into HDFS 
 
@@ -11,10 +11,18 @@ Twitter Developper Account - https://twitter.com/login?redirect_after_login=http
 
 ### First start your Amazon EC2 instance and connect through MobaXterm ###
 
+(Insert Screenshot of MobaXterm)
 
 ### Start up and Connect to Nifi ###
     $ sudo service nifi start
     [Amazon Public DNS from EC2]:9999/nifi
 
+(Insert Screenshot of empty Nifi)
 
+Connect the GetTwitter Processor and fill in the appropriate keys based on the Twitter Developper Credentials
+
+(Insert Screenshot)
+
+Connect the GetTwitter Processor and fill in the appropriate keys based on the Twitter Developper Credentials
     
+Full Nifi flow can be found in the XML file
