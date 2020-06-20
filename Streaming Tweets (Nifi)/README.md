@@ -2,9 +2,12 @@ Streaming Tweets using Apache Nifi
 =================
 We will be using Apache Nifi to connect with Twitter to stream and store incoming tweets into HDFS 
 
-Tools:  
+Tools Used:
 Amazon AWS EC2 instance - based on Cloudera Quickstart VM 5.13.  https://github.com/aws-quickstart/quickstart-cloudera 
 MobaXterm - I find MobaXterm an excellent All-In-One network application tool - https://mobaxterm.mobatek.net/
+
+Required:  
+Twitter Developper Account - https://twitter.com/login?redirect_after_login=https%3A%2F%2Fdeveloper.twitter.com%2Fen%2Fapply%2Fuser.html
 
 ### First start your Amazon EC2 instance and connect through MobaXterm ###
 
