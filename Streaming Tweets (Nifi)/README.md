@@ -11,13 +11,13 @@ Twitter Developper Account - https://twitter.com/login?redirect_after_login=http
 
 ### First start your Amazon EC2 instance and connect through MobaXterm ###
 
-(Insert Screenshot of MobaXterm)
+![MobaXterm - Start](https://user-images.githubusercontent.com/38193183/85236506-8d26b780-b3ec-11ea-8758-18f1a6586787.PNG)
 
 ### Start up and Connect to Nifi ###
     $ sudo service nifi start
     [Amazon Public DNS from EC2]:9999/nifi
     
-![Nifi - Empty](https://user-images.githubusercontent.com/38193183/85231028-fcd37d00-b3c1-11ea-8869-3d9e6968dd89.PNG)
+![Nifi - Get Twitter](https://user-images.githubusercontent.com/38193183/85236518-9b74d380-b3ec-11ea-8f75-fd7880d55cd7.PNG)
 
 Connect the GetTwitter Processor and fill in the appropriate keys based on the Twitter Developper Credentials
 
