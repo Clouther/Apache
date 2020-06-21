@@ -16,13 +16,12 @@ Twitter Developper Account - https://twitter.com/login?redirect_after_login=http
 ### Start up and Connect to Nifi ###
     $ sudo service nifi start
     [Amazon Public DNS from EC2]:9999/nifi
-
-(Insert Screenshot of empty Nifi)
+    
+![Nifi - Empty](https://user-images.githubusercontent.com/38193183/85231028-fcd37d00-b3c1-11ea-8869-3d9e6968dd89.PNG)
 
 Connect the GetTwitter Processor and fill in the appropriate keys based on the Twitter Developper Credentials
 
-(Insert Screenshot)
-
+![Twitter Processor](https://user-images.githubusercontent.com/38193183/85231025-f8a75f80-b3c1-11ea-9e7a-1eee66dd69d6.PNG)
 Connect the GetTwitter Processor and fill in the appropriate keys based on the Twitter Developper Credentials
     
 Full Nifi flow can be found in the XML file
