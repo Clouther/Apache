@@ -25,3 +25,6 @@ Connect the GetTwitter Processor and fill in the appropriate keys based on the T
 Connect the GetTwitter Processor and fill in the appropriate keys based on the Twitter Developper Credentials
     
 Full Nifi flow can be found in the XML file
+
+
+![Final Nifi Flow](https://user-images.githubusercontent.com/38193183/85236504-8c8e2100-b3ec-11ea-95d0-816caa257d40.PNG)
